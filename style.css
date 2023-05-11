@@ -1,0 +1,170 @@
+.wrapper {
+    background-color: white;
+    padding: 30px 70px;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Aclonica';
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+.vertical_line {
+    width: 1px;
+    background-color: black;
+    height: 100%;
+}
+
+.top-icon {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* body */
+.banner {
+    background-color: rgba(193, 220, 220, 1);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_column_banner {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 40px;
+}
+
+.flex__row {
+    display: flex;
+}
+
+.flex__row__banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text__banner {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.text__banner--number {
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+.text__banner--text_under_number {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.p__format {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div_input {
+    width: 100%;
+    position: relative;
+}
+
+.input_banner {
+    height: 40px;
+    width: 100%;
+    border-radius: 12px;
+    position: absolute;
+}
+
+.find_icon {
+    position: absolute;
+    right: 0;
+    background-color: rgba(193, 220, 220, 1);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+body {
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+/* menuitem */
+.menu_item {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    gap: 40px;
+    background-color: lightgrey;
+}
+
+.best_sell {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+}
+
+.p__format--best_sell {
+    font-size: 32px;
+    font-weight: 800px;
+    margin: 0;
+    padding: 0;
+}
+.flex_wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+
+ul {
+    text-align: center;
+}
+
+#content {
+    overflow: auto;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 31.3%;
+    float: left;
+}
+
+.column1 {
+    float: left;
+}
+
+.column2 {
+    margin: 0% 3%;
+}
+
+.column3 {
+    float: right;
+    margin: 0%;
+}
+
+
+li {
+    display: inline-block;
+    padding: 0.5em;
+}

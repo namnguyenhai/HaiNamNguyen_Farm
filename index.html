@@ -4,57 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    body {
-  margin: 0 auto;
-  background-color: lightgrey;
-}
-.wrapper {
-  background-color: white;
-  padding: 30px 70px;
-}
-
-ul {
-  text-align: center;
-}
-#content {
-  overflow: auto;
-}
-
-.column1, .column2, .column3 {
-  width: 31.3%;
-  float: left;
-}
-
-.column1 {
-  float: left;
-}
-.column2 {
-  margin: 0% 3%;
-}
-.column3 {
-  float: right;
-  margin: 0%;
-}
-
-
-li {
-  display: inline;
-  padding: 0.5em;
-}
-
-.banner, .article {
-  background-color: #efefef;
-  height: 10em;
-  margin-bottom: 1em;
-}
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-  </style>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrapper">
@@ -66,25 +17,87 @@ li {
           <li><a href="">Contact</a></li>
         </ul>
         <ul class="top-icon">
-          <li>x</li>
-          <li>y</li>
-          <li>z</li>
+          <li><img src="images/header/shop.svg" alt=""></li>
+          <li><img src="images/header/person.svg" alt=""></li>
+          <li><div class="vertical_line" ></div></li>
+          <li><img src="images/header/tab.svg" alt=""></li>
         </ul>
     </div>
     <div id="content">
       <div class="banner">
-        <p>Banner</p>
+        <div class="flex_column_banner">
+          <div class="text__banner">
+            <p class="p__format">Buy your</p>
+            <p class="p__format">dream plants</p>
+          </div>
+          <div class="flex__row__banner">
+            <div>
+              <p class="text__banner--number p__format">50 + </p>
+              <p class="text__banner--text_under_number p__format">Plant Species</p>
+            </div>
+            <div class="vertical_line">
+
+            </div>
+            <div>
+              <p class="text__banner--number p__format">100 + </p>
+              <p class="text__banner--text_under_number p__format">Customers</p>
+            </div>
+          </div>
+          <div class="div_input">
+              <input class="input_banner" placeholder="What are you looking for?" type="text">
+              <img class="find_icon" src="images/banner/find.svg" alt="">
+          </div>
+        </div>
+        <div>
+          <img  src="images/banner/hand_plant.svg" alt="">
+        </div>
       </div>
-      <div class="banner">
-        <p>Best Seller</p>
+      <div class="menu_item" >
+        <div class="best_sell">
+          <p class="p__format--best_sell">Best Selling Plants</p>
+          <p>Easiest way to healthy life by buying your favorite plants</p>
+          <button>See more</button>
+        </div>
+        <div class="flex_wrap">
+          <div>
+            <img src="images/menu_item/plant1.svg" alt="">
+            <p>Natural plants</p>
+            <p>140.000d</p>
+          </div>
+          <div>
+            <img src="images/menu_item/plant1.svg" alt="">
+            <p>Natural plants</p>
+            <p>140.000d</p>
+          </div>
+          <div>
+            <img src="images/menu_item/plant1.svg" alt="">
+            <p>Natural plants</p>
+            <p>140.000d</p>
+          </div>
+          <div>
+            <img src="images/menu_item/plant1.svg" alt="">
+            <p>Natural plants</p>
+            <p>140.000d</p>
+          </div>
+          <div>
+            <img src="images/menu_item/plant1.svg" alt="">
+            <p>Natural plants</p>
+            <p>140.000d</p>
+          </div>
+          <div>
+            <img src="images/menu_item/plant1.svg" alt="">
+            <p>Natural plants</p>
+            <p>140.000d</p>
+          </div>
+        </div>
       </div>
-      <div class="banner">
+      <div>
         <p>About Us</p>
       </div>
-      <div class="banner">
+      <div >
         <p>Categories</p>
       </div>
-      <div class="banner">
+      <div >
         <p>What say?</p>
       </div>
     </div>
