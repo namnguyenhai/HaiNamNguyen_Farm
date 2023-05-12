@@ -108,9 +108,8 @@ body {
 .menu_item {
     display: flex;
     width: 100%;
-    height: 800px;
+
     gap: 100px;
-    /* background-color: lightgrey; */
     margin-top: 40px;
 }
 
@@ -119,7 +118,7 @@ body {
     flex-direction: column;
     height: 100%;
     width: 200px;
-   
+
 }
 
 .p__format--best_sell {
@@ -128,7 +127,8 @@ body {
     margin: 0;
     padding: 0;
 }
-.flex_wrap{
+
+.flex_wrap {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -143,9 +143,9 @@ ul {
     text-align: center;
 }
 
-#content {
+/* #content {
     overflow: auto;
-}
+} */
 
 .column1,
 .column2,
