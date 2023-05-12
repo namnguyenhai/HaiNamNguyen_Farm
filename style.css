@@ -50,7 +50,9 @@
     display: flex;
 }
 
-.flex__row__banner {
+
+
+.flex__row__space_between {
     display: flex;
     justify-content: space-between;
 
@@ -121,7 +123,7 @@ body {
 
 }
 
-.p__format--best_sell {
+.p__format--size32 {
     font-size: 32px;
     font-weight: 800px;
     margin: 0;
@@ -133,11 +135,92 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 200px;
+    column-gap: 200px;
+}
+
+/* about */
+.about_us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.about_us--flex_column_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.flex__row__space_around {
+    display: flex;
+    gap: 20px;
+
+}
+.p__size18{
+    font-size: 18px;
+
+}
+.about_us__p--desctext{
+    color: rgba(30, 30, 30, 0.5);
+    
+}
+.p__weight{
+    font-weight: 800;
+}
+.about_us__div_image{
+    background-color:rgba(193, 220, 220, 1);
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    position: relative;
+}
+.about_us__image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
 
+/* categories */
+.categories{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:80px;
+}
+.categories__back_ground{
+    background-color:rgba(193, 220, 220, 1);
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+.flex__row__space_between--categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;   
+}
+.image_text__move_in{
+    transform: translateY(-70px);
+}
+
+/* sayabout */
+
+.say_about{
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custorm_scrollbar::-webkit-scrollbar{
+    height: 5px;
+}
+.flex__say_about{
+    display: flex;
+    padding-bottom: 10px;
+}
 
 ul {
     text-align: center;
@@ -147,7 +230,7 @@ ul {
     overflow: auto;
 } */
 
-.column1,
+/* .column1,
 .column2,
 .column3 {
     width: 31.3%;
@@ -165,7 +248,7 @@ ul {
 .column3 {
     float: right;
     margin: 0%;
-}
+} */
 
 
 li {
