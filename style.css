@@ -214,13 +214,56 @@ body {
     flex-direction: column;
 }
 
-.custorm_scrollbar::-webkit-scrollbar{
-    height: 5px;
+.custorm_scrollbar{
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
-.flex__say_about{
+
+.flex__row--sayabout{
     display: flex;
     padding-bottom: 10px;
+    margin-right: 20px;
 }
+.flex__row--sayabout_div{
+    width: 800px;
+    height: 300px;
+    background-color:rgba(193, 220, 220, 1);
+    flex-shrink: 0;
+    margin-right: 20px;
+
+}
+.flex__column--say_about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+}
+.flex__row_test{
+    display: flex;
+    
+    /* ju */
+}
+.flex__row_test2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul {
     text-align: center;
